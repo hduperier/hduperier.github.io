@@ -1,0 +1,24 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "Comp 426 Final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hduperier/Comp-426-Final-Project.git"
+  },
+  "author": "Harvey Duperier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hduperier/Comp-426-Final-Project/issues"
+  },
+  "homepage": "https://github.com/hduperier/Comp-426-Final-Project#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "browser-sync": "^2.26.14",
+    "jquery": "^3.6.0"
+  }
+}

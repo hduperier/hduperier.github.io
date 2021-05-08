@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Harvey Duperier">
+        <meta name="description" content="My personal website">
+        <title>Harvey Duperier's Website</title>
+
+        <!--Links to CSS and Javascript-->
+        <link rel="stylesheet" href="css/mystyle.css" />
+        <link rel="stylesheet" href="css/game.css" />
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper" id="homepage">
+
+            <div class="navbar">
+
+                <div class="name-wrap"></div>
+
+                <div class="my-name">
+                    <p class="first">HARVEY</p>
+                    <p class="last">DUPERIER</p>
+                </div>
+
+                <div class="nav-columns">
+                    <div class="nav-col1">
+                        <span class="home-button"><a href="index.html" class="home-link">-- Home</a></span>
+                    </div>
+                    <div class="nav-col1-side"></div>
+
+                    <div class="nav-col2">
+                        <span class="defi-button"><a href="defi-gas.html" class="defi-link">-- ETH Gas Info</a></span>
+                    </div>
+                    <div class="nav-col2-side"></div>
+
+                    <div class="nav-col3">
+                        <span class="liq-button"><a href="liq.html" class="liq-link">-- Liquidations Summary</a></span>
+                    </div>
+                    <div class="nav-col3-side"></div>
+
+                    <div class="nav-col4">
+                        <span class="gecko-button"><a href="coingecko.html" class="gecko-link">-- CoinGecko</a></span>
+                    </div>
+                    <div class="nav-col4-side"></div>
+
+                    <div class="nav-col5">
+                        <span class="quant-button"><a href="quant.html" class="quant-link">-- Weather</a></span>
+                    </div>
+                    <div class="nav-col5-side"></div>
+
+                    <div class="nav-col6">
+                        <span class="api-button"><a href="tvl.html" class="api-link">-- TVL Data</a></span>
+                    </div>
+                    <div class="nav-col6-side"></div>
+
+
+                    <div class="nav-col8">
+                        <span class="game-button"><a href="game.html" class="game-link">-- Play Game</a></span>
+                    </div>
+                    <div class="nav-col8-side"></div>
+                </div>
+
+            </div>
+
+            <div class="tvl-main-body">
+                <div class="tvl-title">
+                    <span class="span-tvl-title">TVL in Protocols:</span>
+                </div>
+                <div class="tvl-append">
+                    <div class="tvl-asset">
+                        <div class="tvl-rank">
+                            <div class="span-tvl-rank">Rank</div>
+                        </div>
+                        <div class="tvl-name">
+                            <div class="span-tvl-name">Name</div>
+                        </div>
+                        <div class="tvl-chain">
+                            <div class="span-tvl-chain">Chain</div>
+                        </div>
+                        <div class="tvl-category">
+                            <div class="span-tvl-category">Category</div>
+                        </div>
+                        <div class="tvl-TVL">
+                            <div class="span-tvl-TVL">Locked($USD)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="non-use"><div class="api-provided">Data provided by Defi Pulse TVL API</div></div>
+        </div>
+    </body>
+</html>
